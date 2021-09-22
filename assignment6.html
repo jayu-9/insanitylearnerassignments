@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>assignment6</title>
+<style type="text/css">
+	form{
+		background-color: #c4e6a191;
+		border:1px solid black;
+		padding-left: 12px;
+		padding-bottom: 12px;
+		padding-top:12px;
+	}
+	.inputc{
+		margin-left: 12pxpx;
+	}
+</style>
+</head>
+<body>
+<h3><center>Insanity Learner HUNT Form</center></h3>
+<form>
+	First Name:<input class="inputc"type="text" name="fname"><br><br>
+	Last Name:<input class="inputc"type="text" name="lname"><br><br>
+	Select Gender:
+	<input type="radio" name="Gender" value="Male">Male
+	<input type="radio" name="Gender" value="Female">Female
+	<input type="radio" name="Gender" value="Other">Other
+    <br><br>
+    Password: <input class="inputc"type="Password" name="Password">
+    <br><br>
+    Confirm Password: <input type="Password" name="Confirmpass"><br><br>
+    EmailID: <input class="inputc"type="text" name="email">
+    <br><br>
+    Mobile No.: <input class="inputc"type="text" name="phone"><br><br>
+   
+    Program:
+    <select name="Program">
+
+       	<option selected >chose one</option>
+    	<option value="web dev">web dev</option>
+    	<option value="app dev">app dev</option>
+    	<option value="software dev">software dev</option>
+    
+    </select> 
+    <br><br>
+    Write about yourself:<br>
+    <textarea name="aboutyourself" cols="40" rows="4"></textarea> <br><br>
+     Please read all the <a href="#">conditions</a> carefully<br>
+    <input type="checkbox" name="agreebox" value="1">I read all the conditions and agree with it.
+    <br><br>
+    <input type="reset" name="Reset form"> 
+    <input type="submit" name="submit form"> 
+
+</form>
+</body>
+</html>
